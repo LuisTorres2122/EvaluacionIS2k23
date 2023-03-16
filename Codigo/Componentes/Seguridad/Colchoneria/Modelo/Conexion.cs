@@ -27,6 +27,7 @@ namespace Modelo_Seguridad
         }
 
         //Metodo para la desconexion de la base de datos
+        //Metodo sin referencia
         public void desconexion(OdbcConnection conn)
         {
             try
